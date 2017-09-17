@@ -12,7 +12,7 @@ $scope.checkLogin = function (){
        },
        success: function(data){
            console.log(data + "asas");
-           window.location.href = '/';
+           window.location.href = '/chat';
        },
        error: function(data){
            console.log(data);
